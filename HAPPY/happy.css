@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+    clear: both;
+}
+body{
+    background-color: azure;
+}
+.navigation {
+    background: rgba(0, 0, 0, 0.4);
+    height: 60px;
+    z-index: 1;
+}
+a>img {
+    height: 50px;
+    margin: 5px;
+}
+.center {
+    text-align: center;
+    font-size: 50px;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+.bigfont {
+    font-size: 150px;
+}
+.largefont{
+    font-size: 50px;
+}
+.fontfamily{
+  font-family: "Oswald", sans-serif;
+}
+a :hover {
+    color: white;
+    opacity: 0.5;
+}

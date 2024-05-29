@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            PP
+        </title>
+        <link rel="stylesheet" href="PP.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Danfo&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <marquee>
+            <marquee>
+                <h1 class="danfo">
+                    Welcome to PP
+                </h1>
+            </marquee>
+            <h1 class="danfo">
+                Welcome to PP
+            </h1>
+        </marquee>
+        <h1 class="danfo">
+            JavaScript test
+        </h1>
+        <button type="button" onclick="myfunction(1)">
+            click me to wake up the JavaScript.
+        </button>
+        <button type="button" onclick="myfunction(0)">
+            click me to turn back.
+        </button>
+        <p id="demo">
+            Hello Html!
+        </p>
+        <script>
+            function myfunction(vv){
+                if(vv == 1){
+                    document.getElementById("demo").innerHTML = "Hello JavaScript!";
+                    document.getElementById("demo").style.color = "red";
+                    document.getElementById("demo").style.fontSize = "30px";
+                }
+                if(vv == 0){
+                    document.getElementById("demo").innerHTML = "Hello Html!";
+                    document.getElementById("demo").style.color = "black";
+                    document.getElementById("demo").style.fontSize = "100%";
+                }
+        }
+        </script> 
+    </body>
+</html>

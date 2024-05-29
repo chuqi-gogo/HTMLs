@@ -1,0 +1,10 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+marquee{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    color: brown; background-color: gold;
+    text-align: center;
+}
