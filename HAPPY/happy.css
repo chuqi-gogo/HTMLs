@@ -39,7 +39,6 @@ a>img {
 .fontfamily{
   font-family: "Oswald", sans-serif;
 }
-a :hover {
-    color: white;
+a:hover {
     opacity: 0.5;
 }
