@@ -10,3 +10,7 @@ function myfunction(vv){
         document.getElementById("demo").style.fontSize = "100%";
     }
 }
+function mysecondfunction(){
+    document.write(5+5);
+    alert("Hello JavaScript!");
+}
