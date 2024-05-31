@@ -22,3 +22,23 @@ marquee {
     border-width: 5px;
     border-color: red green blue yellow;
 }
+img{
+    width: 60px;
+}
+table{
+    border-color: black;
+    border-style: dashed;
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background-color: blue;
+    color: white;
+    border-color: blueviolet;
+    border-style: dashed;
+}
+td{
+    background-color: lightblue;
+    border-color: blueviolet;
+    border-style: dashed;
+}
