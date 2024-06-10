@@ -6,6 +6,15 @@
     font-variation-settings:
       "ELSH" 0;
   }
+.optionsss{
+    display: none;
+}
+.options{
+    display: block;
+}
+.options:hover .optionsss{
+    display: block;
+}
 h1{
     background-color: aliceblue;
     font-size: 100px;

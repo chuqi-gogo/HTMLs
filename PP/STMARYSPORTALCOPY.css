@@ -1,0 +1,180 @@
+.nav{
+    background-color: blue;
+    width: 100%;
+    color: white;
+    padding: 0;
+    margin: 0;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.nav2{
+    background-color: darkblue;
+    width: 100%;
+    color: white;
+    margin: 0;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.end{
+    background-color: darkblue;
+    width: 100%;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.nav2tdABOUT{
+    border: none;
+    padding: 20px;
+    background-color: darkblue;
+    color: white;
+}
+.nav2tdABOUT:hover{
+    background-color: white;
+    color: darkblue;
+}
+.dropdownABOUT{
+    display: inline;
+    position: relative;
+}
+.dropdownABOUTmenu{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.dropdownABOUT:hover .dropdownABOUTmenu{
+    display: block;
+    color: gray;
+    background-color: lightgray;
+}
+.nav2tdADMISSIONS{
+    border: none;
+    padding: 20px;
+    background-color: darkblue;
+    color: white;
+}
+.nav2tdADMISSIONS:hover{
+    background-color: white;
+    color: darkblue;
+}
+.dropdownADMISSIONS{
+    display: inline;
+    position: relative;
+}
+.dropdownADMISSIONSmenu{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.dropdownADMISSIONS:hover .dropdownADMISSIONSmenu{
+    display: block;
+    color: gray;
+    background-color: lightgray;
+}
+.nav2tdINTERNATIONAL{
+    padding: 20px;
+}
+.nav2tdINTERNATIONAL:hover{
+    background-color: white;
+    color: darkblue;
+}
+.nav2tdLEARNING{
+    padding: 20px;
+}
+.nav2tdLEARNING:hover{
+    background-color: white;
+    color: darkblue;
+}
+.nav2tdAPPLY{
+    padding: 20px;
+}
+.nav2tdAPPLY:hover{
+    background-color: white;
+    color: darkblue;
+}
+.nav2tdGIVING{
+    padding: 20px;
+}
+.nav2tdGIVING:hover{
+    background-color: white;
+    color: darkblue;
+}
+td{
+    text-align: center;
+}
+p{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+}
+table{
+    border-spacing: 0;
+    margin: 0;
+}
+.right{
+    float: right;
+    width: 20%;
+}
+.marginright{
+    margin-right: 10%;
+}
+.marginrightright{
+    margin-right: 10%;
+    float: right;
+}
+.normaltd{
+    padding: 10px;
+}
+.width60{
+    width: 100%;
+}
+.width40{
+    width: 40px;
+}
+.width40:hover{
+    opacity: 0.5;
+}
+div{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.rightput{
+    text-align: right;
+}
+.leftput{
+    text-align: left;
+}
+.timesnewroman{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.trr{
+    background-color: lightgray;
+    text-align: left;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.short{
+    height: 125px;
+}
+.short:hover{
+    opacity: 0.5;
+}
+.niceborder{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.niceborder:hover{
+    background-color: white;
+    color: blue;
+}
+.dropdown{
+    display: none;
+}

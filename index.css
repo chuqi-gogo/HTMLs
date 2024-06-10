@@ -26,6 +26,10 @@ a>img {
 .left {
     float: left;
 }
+.right {
+    margin-right: 5%;
+    float: right;
+}
 .center {
     text-align: center;
 }
