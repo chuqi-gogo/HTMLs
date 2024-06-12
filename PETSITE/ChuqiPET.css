@@ -8,3 +8,15 @@ body{
     color: brown; background-color: gold;
     text-align: center;
 }
+.short {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+.short:hover {
+    opacity: 0.5;
+}
+.left {
+    float: left;
+    margin: 5px;
+}
