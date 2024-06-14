@@ -6,3 +6,20 @@ body {
     font-family:'Times New Roman', Times, serif;
     background-color: lawngreen;
 }
+.navigation {
+    background: rgba(0, 0, 0, 0.4);
+    height: 60px;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.short {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+.left {
+    float: left;
+    margin: 5px;
+}
